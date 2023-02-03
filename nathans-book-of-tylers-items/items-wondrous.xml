@@ -3,7 +3,7 @@
 	<info>
 		<name>Wondrous Items</name>
 		<update version="0.1.0">
-			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide/items/items-wondrous.xml" />
+			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/Nathongols/DnD-Homebrew/main/nathans-book-of-tylers-items/items-wondrous.xml" />
 		</update>
 	</info>
 	<element name="Jacob's Mangled Cock" type="Magic Item" source="Nathan's Book of Tyler's Items" id="ID_NBTI_DMG_MAGIC_ITEM_JACOB_COCK">
@@ -19,5 +19,4 @@
 			<set name="rarity">Legendary</set>
 		</setters>
 	</element>
-
 </elements>
