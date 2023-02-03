@@ -5,7 +5,7 @@
 		<description>Funny BOok</description>
 		<author>Nathan/Game</author>
 		<update version="0.1">
-			<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide.index" />
+			<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/Nathongols/DnD-Homebrew/main/nathans-book-of-tylers-items.index" />
 		</update>
 	</info>
 	<files>
