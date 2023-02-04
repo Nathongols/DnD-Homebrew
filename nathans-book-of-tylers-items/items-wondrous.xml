@@ -19,7 +19,7 @@
 			<set name="rarity">Legendary</set>
 		</setters>
 	</element>
-	<element name="Bulwark Helm" type="Magic Item" source="Nathan's Book of Tyler's Items" id="ID_NBTI_DMG_MAGIC_ITEM_BULWARK_HELM">
+	<element name="Bulwark Helm" type="Magic Item" source="Nathan's Book of Tyler's Items" id="ID_NBTI_HELMET_ARMOR_BULWARK_HELM">
 		<description>
 			<p>Requires proficiency in Heavy Armor. </p>
 			<p class="indent">Any creature wearing this helm gains a +1 bonus to their AC and gains advantage on all saves against being unwillingly moved or knocked prone. The creature also gains immunity to being stunned and resistance to psychic damage. This magic helmet adapts to cover the head of its wearer. It can change to fit small, medium, and large creatures.</p>
@@ -37,7 +37,6 @@
 		</requirements>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_IMMUNITY_STUNNED" />
 			<stat name="ac:misc" value="1" />
 		</rules>
 	</element>
