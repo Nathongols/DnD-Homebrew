@@ -24,18 +24,20 @@
 			<p>Requires proficiency in Heavy Armor. </p>
 			<p class="indent">Any creature wearing this helm gains a +1 bonus to their AC and gains advantage on all saves against being unwillingly moved or knocked prone. The creature also gains immunity to being stunned and resistance to psychic damage. This magic helmet adapts to cover the head of its wearer. It can change to fit small, medium, and large creatures.</p>
 		</description>
-
 		<setters>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="15">15 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="slot">head</set>
-			<set name="attunement">true</set>
 			<set name="rarity">Very Rare</set>
 		</setters>
+		<requirements>
+			<stat name="proficiency" value="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+		</requirements>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_IMMUNITY_STUNNED" />
 			<stat name="ac:misc" value="1" />
 		</rules>
 	</element>
