@@ -29,8 +29,8 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="15">15 lb.</set>
 			<set name="type">Wondrous Item</set>
+			<set name="slot">Head</set>
 			<set name="rarity">Very Rare</set>
 		</setters>
 	</element>
-
 </elements>
