@@ -30,10 +30,12 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="15">15 lb.</set>
 			<set name="type">Wondrous Item</set>
-			<set name="slot">misc</set>
+			<set name="slot">head</set>
+			<set name="attunement">true</set>
 			<set name="rarity">Very Rare</set>
 		</setters>
 		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
 			<stat name="ac:misc" value="1" />
 		</rules>
 	</element>
