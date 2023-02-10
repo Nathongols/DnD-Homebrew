@@ -3,7 +3,7 @@
 	<info>
 		<name>Weapons</name>
 		<update version="0.1.0">
-			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Nathongols/DnD-Homebrew/main/nathans-book-of-tylers-items/items-wondrous.xml" />
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Nathongols/DnD-Homebrew/main/nathans-book-of-tylers-items/items-weapons.xml" />
 		</update>
 	</info>
 	<element name="Adamantine Rapier" type="Weapon" source="Nathan's Book of Tyler's Items" id="ID_NBTI_WEAPON_ADAMANTINE_RAPIER">
