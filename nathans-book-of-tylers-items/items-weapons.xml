@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Weapons</name>
+		<update version="0.1.0">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Nathongols/DnD-Homebrew/main/nathans-book-of-tylers-items/items-wondrous.xml" />
+		</update>
+	</info>
+	<element name="Adamantine Rapier" type="Weapon" source="Nathan's Book of Tyler's Items" id="ID_NBTI_WEAPON_ADAMANTINE_RAPIER">
+		<description>
+			<p>A rapier made of pure adamantine.</p>
+			<p class="indent">Whenever the adamantine rapier hits an object, the hit is a critical hit. The adamantine rapier counts as "magical" for the purpose of overcoming resistance to piercing damage from: "non-magical weapons".</p>
+		</description>
+		<setters>
+            <set name="keywords">rapier</set>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+            <set name="damage" type="piercing">1d6</set>
+            <set name="weapon">Rapier</set>
+		</setters>
+	</element>
+</elements>
